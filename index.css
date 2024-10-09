@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1b244a;
+    padding: 20px 10px 40px;
+    width: 400px;
+}
+
+
+#home-score-el, #guest-score-el {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+    letter-spacing: 5px;
+    width: 117px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+    font-family: ClockFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    text-align: center;
+    color: #F94F6D;
+}
+
+
+.column1, .column2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3 {
+    color: #f3f4f6;
+    margin: 10px;
+}
+
+button {
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    background-color: #1b244a;
+    border-radius: 3px;
+}
+
+@font-face {
+    font-family: 'ClockFont'; /* Custom name for the font */
+    src: url('clockfont.ttf') format('truetype'); /* Path to the font file */
+}
